@@ -1,34 +1,27 @@
-NoteKeeper - A Simple Tool for Organizing Your Notes
 
-Welcome to NoteKeeper, a straightforward web application designed to help you manage your notes and notebooks easily. With NoteKeeper, you can create, update, and delete notebooks and notes, making it a handy tool for organizing your thoughts and ideas. Your data is securely stored in your browser's local storage, ensuring accessibility whenever you need it.
+# Note Taking App
 
-Features
-Create Notebooks:
-Easily categorize your notes by creating different notebooks for work, personal use, or any other purpose.
+Introducing NoteKeeper, a user-friendly tool designed to help you organize your notes and keep them in one place. Say goodbye to scattered notes and hello to a more efficient way of managing your information.
 
-Manage Notes:
-Within each notebook, you can effortlessly create, read, update, and delete notes to keep your thoughts organized.
 
-Local Storage:
-All your data is stored locally in your browser. No need for accounts or syncing; your data is always available right in your browser.
 
-Getting Started
-Follow these simple steps to get started with NoteKeeper:
 
-Clone the Repository:
-Clone the NoteKeeper repository from the provided link: NoteKeeper Repository.
+## Features
 
-Open the Project:
-Once you have the code on your local machine, open the project in your preferred code editor.
+- Light/dark mode toggle
+- Tooltip functionality
+- Create, Render existed, Update, Delete(JS), 
+- Media queries
 
-Run the Application:
-Open the index.html file in your browser to start using NoteKeeper.
+
+## Run the Application
+
+Open the index.html file in your browser to start using Note Taking App.
 
 Usage
 Using NoteKeeper is intuitive:
 
 Creating a Notebook:
-
 Click the "New Notebook" button.
 Provide a name for your notebook.
 Click "Create Notebook."
@@ -47,8 +40,20 @@ Managing Notebooks:
 Edit or delete notebooks by selecting the desired notebook and clicking the "Edit" or "Delete" button.
 Enjoy Secure Storage:
 Your data is automatically saved to your browser's local storage, ensuring access even after closing the browser or restarting your computer.
+# Hi, I'm Jaimin! 👋
 
-Credits
+Hi, I'm Jaimin, a front-end developer with several years of experience in HTML5, CSS3, JavaScript, and React. I am passionate about creating user-friendly web applications using .NET Core, .NET Framework, and SQL. I also have expertise in Bootstrap and Tailwind CSS. Currently, I am actively working with .NET Core 6.
+
+This GitHub repository showcases my work and projects, demonstrating my skills in web development and proficiency with the mentioned technologies. Feel free to explore the repository to see examples of my code and projects.
+
+If you have any questions, suggestions, or would like to collaborate on a project, please feel free to reach out. I'm excited about the opportunity to contribute to innovative and engaging web development projects.
+## 🛠 Tech Stack
+Javascript, HTML, CSS...
+
+
+## Credits
+
 This project was created with the assistance of the YouTube channel CodeWithSadee. Special thanks to their fantastic tutorial and guidance in building NoteKeeper.
 
 Feel free to reach out if you have any questions or need further assistance. Happy note-keeping with NoteKeeper!
+
