@@ -135,9 +135,7 @@ export const db = {
             readDB();
 
             const notebook = findNotebook(notekeeperDB, notebookId);
-            console.log('Notebook:', notebook);
             const noteIndex = findnoteIndex(notebook, nodeId);
-            console.log('noteIndex:', noteIndex);
             notebook.notes.splice(noteIndex, 1);
 
             writeDB();
