@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notekeeper - Your Everyday Notes | Effortless Note-Taking</title>
+    <meta name="title" content="Notekeeper - your Everyday Note | Effrotless Note-Taking">
+    <meta name="description" content="Streamline your daily note-taking with Notekeeper Organize, acces, and enhance productivity with ease. Your go-to platform for managing your everday note.">
+
+    <!-- favicon -->
+    <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
+
+    <!-- theme js -->
+    <script src="./src/js/theme.js"></script>
+
+    <!-- Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;500&display=swap" rel="stylesheet">
+
+    <!-- material symbol link -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@24,400,0,0" />
+
+    <!-- custom css link -->
+    <link rel="stylesheet" href="./src/css/style.css">
+
+    <!-- custome js link -->
+    <script type="module" src="./src/js/app.js"></script>
+
+</head>
+<body>
+    <header class="sidebar" data-sidebar>
+        <div class="wrapper wrapper-2">
+            <a href="/">
+                <img src="./src/images/logo-light.svg" alt="Notekeeper" class="logo-light">
+                <img src="./src/images/logo-dark.svg" alt="Notekeeper" class="logo-dark">
+            </a>
+            <button class="menu-btn icon-btn large" aria-label="Close menu" data-sidebar-toggler>
+                <span class="material-symbols-rounded" aria-hidden="true">close</span>
+
+                <div class="state-layer"></div>
+            </button>
+        </div>
+
+        <button class="fab" data-note-create-btn>
+            <span class="material-symbols-rounded" aria-hidden="true">add</span>
+            <span class="text text-label-large">New note</span>
+            <div class="state-layer"></div>
+        </button>
+
+        <div class="wrapper wrappper-2">
+            <h2 class="text-title-small">NOTEBOOK</h2>
+            <button class="icon-btn small" data-tooltip="Create new notebook" aria-label="Create new notebook" data-add-notebook>
+                <span class="material-symbols-rounded" aria-hidden="true">add</span>
+                <div class="state-layer"></div>
+            </button>
+        </div>
+
+        <nav class="nav customer-scrollbar" data-sidebar-list></nav>
+
+        <div class="cp-info">
+            <span class="text-label-large">Copyright 2023 <strong>Jaimin Pate</strong></span>
+        </div>
+    </header>
+
+    <div class="overlay" data-sidebar-overlay data-sidebar-toggler></div>
+
+    <main class="main">
+       <div class="header">
+        <div class="wrapper">
+            <p class="title text-title-larger" data-greeting></p>
+            <span class="text text-body-medium" data-current-date></span>
+        </div>
+
+        <button class="theme-btn icon-btn large" aria-label="Toggle theme" data-tooltip="Toggle theme" data-theme-btn>
+            <span class="material-symbols-rounded dark-icon" aria-hidden="true">dark_mode</span>
+            <span class="material-symbols-rounded light-icon" aria-hidden="true">light_mode</span>
+            <div class="state-layer"></div>
+        </button>
+
+        <button class="menu-btn icon-btn large" aria-label="Open menu" data-sidebar-toggler>
+            <span class="material-symbols-rounded" aria-hidden="true">menu</span>
+            <div class="state-layer"></div>
+        </button>
+  
+       </div>
+
+       <h2 class="title text-title-medium" data-note-panel-title></h2>
+
+       <!-- Note List  -->
+        <div class="note-list" data-note-panel></div>
+
+        <!-- #FAB button for mobile -->
+
+        <button class="fab" aria-label="New note" data-note-create-btn>
+            <span class="material-symbols-rounded" aria-hidden="true">add</span>
+            <!-- <span class="text text-label-large">New note</span> -->
+            <div class="state-layer"></div>
+        </button>
+
+    </main>
+</body>
+</html>
